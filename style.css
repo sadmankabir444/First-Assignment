@@ -18,6 +18,7 @@ nav > ul > li{
     text-decoration: none;
     font-weight: bolder;
     font-size: 50px;
+    color: rgba(78, 71, 255, 1);
 }
 
 /* Head section Added */
@@ -34,8 +35,10 @@ nav > ul > li{
 .btn{
     font-weight: bold;
     font-size: larger;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* Live Preview Section styles */
@@ -43,18 +46,145 @@ nav > ul > li{
 .live-preview{
     display: flex;
     justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.wc-img{
+    border-radius: 20px;
 }
 .right-preview{
     align-content: center;
 }
 
-/* Form Section */
+/* Users Section styles */
+.users{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 50px 150px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.users-head{
+    text-align: center;
+    padding-top: 40px;
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    font-size: larger;
+}
+.users-info{
+    display: flex;
+    justify-content: center;
+    gap:  150px;
+}
+.users-count{
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgba(78, 71, 255, 1);
+}
+.users-title{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Review Section */
+.review-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    font-size: larger;
+}
+.review-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+}
+.rating-info{
+    display: flex;
+    gap: 20px;
+    
+}
+.review-info{
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 7px 5px whitesmoke ;
+}
+.rating-img{
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.star-clr{
+    color: gold;
+}
+/* Form Section Styles*/
 
 .form{
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    padding: 20px 200px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(235, 241, 247, 0.8);
+}
+.btn-form{
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 10px 5px;
+    background-color: rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 .footer-column{
     display: block;
+}
+.form-title{
+    font-weight: bolder;
+    font-size: 4.5em;
+}
+.form-head{
+    align-content: center;
+}
+.name{
+    padding: 10px 40px;
+    margin: 10px 5px;
+}
+.email{
+    padding: 10px 40px;
+    margin: 10px 5px;
+}
+.message{
+    padding: 10px 40px;
+    margin: 10px 5px;
+}
+
+/* Footer Section Styles */
+
+.footer-info{
+    justify-items: center;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: rgba(137, 135, 161, 1);
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+}
+
+button:hover {
+    background-color: darkblue;
 }
