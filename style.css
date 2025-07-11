@@ -169,6 +169,8 @@ nav > ul > li{
 
 .footer-info{
     justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer-title{
     font-weight: bold;
@@ -180,6 +182,9 @@ nav > ul > li{
     display: flex;
     gap: 20px;
     color: rgba(137, 135, 161, 1);
+}
+.footer-list-item{
+    text-decoration: none;
 }
 .footer-description{
     color: rgba(137, 135, 161, 1);
