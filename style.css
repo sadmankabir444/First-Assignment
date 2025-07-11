@@ -1,0 +1,29 @@
+/* Navbar Styles */
+
+.header{
+    width: 100%;
+    background-image: url(./Images/Hero-bg.png);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav > ul > li{
+    list-style: none;
+}
+.logo{
+    text-decoration: none;
+}
+
+/* Head section Added */
+#head-section{
+    justify-content: center;
+}
+.heading{
+    justify-content: center;
+}
+.head-btn{
+    align-content: center;
+}
+
