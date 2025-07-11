@@ -51,6 +51,13 @@ nav > ul > li{
     padding-left: 80px;
     padding-right: 80px;
 }
+.preview-description{
+    color: rgba(137, 135, 161, 1);
+}
+.preview-title{
+    font-weight: bolder;
+    font-size: 30px;
+}
 .wc-img{
     border-radius: 20px;
 }
