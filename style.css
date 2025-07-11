@@ -1,12 +1,14 @@
 /* Navbar Styles */
 
 .header{
-    width: 100%;
+    
     background-image: url(./Images/Hero-bg.png);
+    
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px 120px;
     
 }
 nav > ul > li{
@@ -14,16 +16,45 @@ nav > ul > li{
 }
 .logo{
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 50px;
 }
 
 /* Head section Added */
-#head-section{
-    justify-content: center;
+.head-section{
+    text-align: center;
+    /* font-size: larger; */
+    padding: 30px;
+    
 }
 .heading{
-    justify-content: center;
+   font-weight: bolder;
+   font-size: 62px;
 }
-.head-btn{
+.btn{
+    font-weight: bold;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Live Preview Section styles */
+
+.live-preview{
+    display: flex;
+    justify-content: space-around;
+}
+.right-preview{
     align-content: center;
 }
 
+/* Form Section */
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    display: block;
+}
